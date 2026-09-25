@@ -35,6 +35,12 @@ final Map<String, String> _us_ui = {
   I18n.noData: 'No data',
   I18n.notifyTestHelp:
       'Please refer to the documentation [Message Push] to fill in the relevant configuration',
+  I18n.export_diagnostic: 'Export Diagnostic',
+  I18n.export_diagnostic_help:
+      'Package key config (desensitized) and recent logs into a zip for troubleshooting bans. No account/token/password included.',
+  I18n.export_diagnostic_button: 'Export Diagnostic',
+  I18n.export_diagnostic_done: 'Exported to: ',
+  I18n.export_diagnostic_failed: 'Export failed',
   I18n.rootPathServerHelp:
       'OASX and OAS are two different things. Do not confuse them, do not put them in the same directory, do not use spaces, do not use Chinese characters, and do not use overly long paths',
   I18n.installOasHelp:

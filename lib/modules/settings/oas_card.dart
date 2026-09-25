@@ -60,7 +60,14 @@ class OasSettingsCard extends StatelessWidget {
 void notifyTest() {
   Get.defaultDialog(
     title: I18n.notifyTest.tr,
-    content: const NotifyTest(),
+    content: const Column(
+      mainAxisSize: MainAxisSize.min,
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        NotifyTest(),
+        DiagnosticExport(),
+      ],
+    ),
   );
 }
 

@@ -34,6 +34,11 @@ class I18n {
   static const String notifyTestSend = 'Notify Send',
       notifyTestSuccess = 'Notify Success',
       notifyTestFailed = 'Notify Failed';
+  static const String export_diagnostic = 'Export Diagnostic',
+      export_diagnostic_help = 'Export Diagnostic Help',
+      export_diagnostic_button = 'Export Diagnostic Button',
+      export_diagnostic_done = 'Export Diagnostic Done',
+      export_diagnostic_failed = 'Export Diagnostic Failed';
   static const String currentVersion = 'Current Version',
       latestVersion = 'Latest Version',
       findNewVersion = 'Find New Version';

@@ -55,5 +55,6 @@ AGENTS.md
 CLAUDE.md
 .codex/
 .claude/
+.claude/settings.local.json
 openspec/
 .codegraph/
